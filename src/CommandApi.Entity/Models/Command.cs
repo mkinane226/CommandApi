@@ -2,7 +2,7 @@
 
 namespace CommandApi.Entity.Models
 {
-    class Command
+    public class Command
     {
         [Key]
         [Required]
