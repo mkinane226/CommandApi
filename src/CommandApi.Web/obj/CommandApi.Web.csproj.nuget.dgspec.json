@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mohamed KINANE\\source\\repos\\CommandApi\\src\\CommandApi.web\\CommandApi.Web.csproj": {}
+    "C:\\Users\\Mohamed KINANE\\source\\repos\\CommandApi\\src\\CommandApi.Web\\CommandApi.Web.csproj": {}
   },
   "projects": {
     "C:\\Users\\Mohamed KINANE\\source\\repos\\CommandApi\\src\\CommandApi.Entity\\CommandApi.Entity.csproj": {
@@ -43,6 +43,22 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\Mohamed KINANE\\source\\repos\\CommandApi\\src\\CommandApi.web\\CommandApi.Web.csproj": {
+    "C:\\Users\\Mohamed KINANE\\source\\repos\\CommandApi\\src\\CommandApi.Web\\CommandApi.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohamed KINANE\\source\\repos\\CommandApi\\src\\CommandApi.web\\CommandApi.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Mohamed KINANE\\source\\repos\\CommandApi\\src\\CommandApi.Web\\CommandApi.Web.csproj",
         "projectName": "CommandApi.Web",
-        "projectPath": "C:\\Users\\Mohamed KINANE\\source\\repos\\CommandApi\\src\\CommandApi.web\\CommandApi.Web.csproj",
+        "projectPath": "C:\\Users\\Mohamed KINANE\\source\\repos\\CommandApi\\src\\CommandApi.Web\\CommandApi.Web.csproj",
         "packagesPath": "C:\\Users\\Mohamed KINANE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohamed KINANE\\source\\repos\\CommandApi\\src\\CommandApi.web\\obj\\",
+        "outputPath": "C:\\Users\\Mohamed KINANE\\source\\repos\\CommandApi\\src\\CommandApi.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

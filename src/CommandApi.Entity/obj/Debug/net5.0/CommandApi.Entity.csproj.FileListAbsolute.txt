@@ -10,3 +10,6 @@ C:\Users\Mohamed KINANE\source\repos\CommandApi\src\CommandApi.Entity\obj\Debug\
 C:\Users\Mohamed KINANE\source\repos\CommandApi\src\CommandApi.Entity\obj\Debug\net5.0\CommandApi.Entity.dll
 C:\Users\Mohamed KINANE\source\repos\CommandApi\src\CommandApi.Entity\obj\Debug\net5.0\ref\CommandApi.Entity.dll
 C:\Users\Mohamed KINANE\source\repos\CommandApi\src\CommandApi.Entity\obj\Debug\net5.0\CommandApi.Entity.pdb
+C:\Users\Mohamed KINANE\source\repos\CommandApi\src\CommandApi.Entity\bin\Debug\net5.0\CommandApi.Entity.runtimeconfig.json
+C:\Users\Mohamed KINANE\source\repos\CommandApi\src\CommandApi.Entity\bin\Debug\net5.0\CommandApi.Entity.runtimeconfig.dev.json
+C:\Users\Mohamed KINANE\source\repos\CommandApi\src\CommandApi.Entity\obj\Debug\net5.0\CommandApi.Entity.genruntimeconfig.cache
