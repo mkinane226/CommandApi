@@ -8,18 +8,27 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.EntityFrameworkCore;
 
 namespace CommandApi.Web
 {
     public class Startup
     {
+        public IConfiguration Configuration { get; }
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
         // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
             // Depency injection register fo MockCommand against ICommand
-            services.AddScoped<ICommandAPIRepo, MockCommandAPIRepo>();
+            services.AddScoped<ICommandAPIRepo, SqlCommandAPIRepo>();
+            services.AddDbContext<CommandContext>(opt =>
+                opt.UseNpgsql((Configuration.GetConnectionString("PostgreSqlConnection")), 
+                b => b.MigrationsAssembly("CommandApi.Web")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -31,3 +31,5 @@ C:\Users\Mohamed KINANE\source\repos\CommandApi\src\CommandApi.Web\bin\Debug\net
 C:\Users\Mohamed KINANE\source\repos\CommandApi\src\CommandApi.Web\bin\Debug\net5.0\Npgsql.dll
 C:\Users\Mohamed KINANE\source\repos\CommandApi\src\CommandApi.Web\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\Mohamed KINANE\source\repos\CommandApi\src\CommandApi.Web\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Mohamed KINANE\source\repos\CommandApi\src\CommandApi.Web\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Mohamed KINANE\source\repos\CommandApi\src\CommandApi.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
